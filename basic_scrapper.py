@@ -56,3 +56,18 @@ dict_gambling = {'Teams': teams, '1x2': x12}
 #Presenting data in dataframe
 df_gambling = pd.DataFrame.from_dict(dict_gambling)
 print(df_gambling)
+"""
+                                        Teams               1x2
+0            FC Schalke 04\nBorussia Dortmund  7.30\n5.90\n1.32
+1                    Liverpool FC\nEverton FC  1.37\n5.20\n7.30
+2                 Fulham FC\nSheffield United  2.10\n3.20\n3.80
+3                Torquay United\nHalifax Town  1.80\n3.70\n3.90
+4               CF Valencia\nRC Celta de Vigo  2.45\n3.20\n3.00
+..                                        ...               ...
+115                  AS Real Bamako\nUSC Kita  1.80\n3.10\n4.20
+116                        LCBA FC\nAS Police  2.10\n3.00\n3.30
+117  Zejtun Corinthians F.c.\nGzira United FC  5.20\n3.80\n1.52
+118                 Floriana FC\nGudja United  1.85\n3.40\n3.60
+119       AC Omonia Nicosia\nApoel Nicosia FC  1.70\n3.20\n5.00
+
+"""
